@@ -1,7 +1,7 @@
-def print_h1(name):
-    print(f"hello, {name}")
-    print("How are you doing?")
+import math
+# из градусов в радианы
 
-if __name__ == "__main__":
-    name = input("Your mane: ")
-    print_h1(name)
+degree = float(input('Enter your degree: '))
+x1 = math.pi
+x2 = 180
+print((degree * x1) / x2)
